@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background: #2e7d32;
+  color: white;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.header-buttons {
+  margin-top: 15px;
+}
+
+/* BOTÕES */
+.btn {
+  display: inline-block;
+  margin: 5px;
+  background: #ffca28;
+  color: #000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-dark {
+  background: #1b5e20;
+  color: white;
+}
+
+/* SEÇÕES */
+section {
+  padding: 30px 15px;
+  background: white;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+/* GRID PRODUTOS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #e8f5e9;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* PROMOÇÕES */
+.promo {
+  background: #fff3cd;
+}
+
+.promo-img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* MAPA */
+iframe {
+  width: 100%;
+  height: 250px;
+  border: none;
+  border-radius: 6px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #2e7d32;
+  color: white;
+}
